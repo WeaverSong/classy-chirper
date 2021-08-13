@@ -1,0 +1,54 @@
+.user {
+    background-color: rgb(47, 53, 53);
+    max-width: 500px;
+    width: 13em;
+    height: 56px;
+    border: 3px black solid;
+    border-bottom: 0;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.userText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.userIcon {
+    width: 50px;
+    height: 50px;
+    border: 3px black solid;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+.userName {
+    display: inline-block;
+    margin: 0;
+    font-size: 160%;
+}
+
+.userDesc {
+    margin: 0;
+}
+
+.tooltiptext {
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+    padding: 5px 2px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    visibility: hidden;
+    max-width: 500px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

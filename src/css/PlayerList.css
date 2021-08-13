@@ -1,0 +1,16 @@
+.PlayerList {
+    direction: rtl;
+    width: 14.5em;
+    max-width: 500px;
+    height: 100%;
+    background-color: rgb(47, 53, 53);
+    border-left: 0;
+    margin-top:1em;
+    overflow: scroll;
+    overflow-x: hidden
+}
+
+.PlayerList > .user {
+    padding: 5px 0;
+    direction:ltr;
+}

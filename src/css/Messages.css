@@ -1,0 +1,19 @@
+.messageBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-height: 100px;
+}
+
+.messageInput {
+    background-color: lightgray;
+    width: 80%;
+    min-height: 3em;
+    margin: 10px;
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 5px;
+    overflow-wrap:break-word;
+    cursor: text;
+}
